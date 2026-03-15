@@ -21,7 +21,7 @@ fn new_city(residents: u64, is_coastal: bool) -> City {
 }
 
 fn main() {
-    let rustville: City = new_city(1_324_578, true);
+    let rustville: City = new_city(1_324_578, false);
 
     println!("This city can be described as: {}", rustville.description);
 
